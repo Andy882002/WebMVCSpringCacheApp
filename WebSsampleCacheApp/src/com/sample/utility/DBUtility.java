@@ -15,8 +15,8 @@ public class DBUtility {
         else {
         	try {
             String url="jdbc:Cache://localhost:1972/Samples";
-			String username="_SYSTEM";              //_SYSTEM";
-			String password="_SYSTEM"; 
+			String username="_SYSTE";              //_SYSTEM";
+			String password="_SYST"; 
 			dbconnection = CacheDatabase.getDatabase (url, username, password);
         	}
         	
